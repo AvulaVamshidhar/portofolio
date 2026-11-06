@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090D" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Avula Vamshidhar — Software Developer & Data Science Student</title>
+    <meta
+      name="description"
+      content="Portfolio of Avula Vamshidhar, a software developer and data science student in Hyderabad building practical, intelligent applications across full-stack development and data."
+    />
+    <meta name="author" content="Avula Vamshidhar" />
+    <meta name="color-scheme" content="dark light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Avula Vamshidhar — Software Developer & Data Science Student" />
+    <meta
+      property="og:description"
+      content="Turning ideas into intelligent digital experiences. Full-stack development, data science and applied AI."
+    />
+    <meta property="og:image" content="/profile.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the wrong theme.
+      try {
+        var saved = localStorage.getItem("av-theme");
+        if (saved === "light") document.documentElement.classList.add("light");
+      } catch (error) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
